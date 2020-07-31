@@ -1,4 +1,4 @@
-# node-weather
+# node-weather-web
 Node app to get weather forecast based on location provided by user
 
 ## Getting started:
@@ -18,7 +18,7 @@ $ node app
 Open a browser at the following URL:
 
 ```
-http://localhost:3300/
+http://localhost:3000/
 ```
 
 License
