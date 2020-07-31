@@ -1,0 +1,21 @@
+{
+  "name": "node-weather-web",
+  "version": "1.0.0",
+  "description": "Weather Application for displaying weather based on user input",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js -e js,handlebars"
+  },
+  "keywords": [],
+  "author": "Jitendra Oza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "postman-request": "^2.88.1-postman.24"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
