@@ -13,8 +13,7 @@ $(document).ready(function() {
         locationDiv.textContent = 'Loading...';
         forecastDiv.textContent = '';
         const location = input.value;
-        const url = 'http://localhost:3000/weather?location=' + location;
-        fetch(url).then((response) => {
+        fetch('/weather?location=' + location).then((response) => {
             response.json().then((data) => {
                 if(data.error) {
                     errorDiv.textContent = data.error; 
