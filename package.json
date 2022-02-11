@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.1.0",
+    "express-handlebars": "^5.3.1",
     "postman-request": "^2.88.1-postman.24"
   },
   "devDependencies": {
